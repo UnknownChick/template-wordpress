@@ -10,7 +10,7 @@ function custom_theme() {
 	/* CSS */
 	wp_enqueue_style('custom-style',  get_stylesheet_uri(), array(), '1.0');
 	if(is_404()) {
-		wp_enqueue_script('404-style', get_template_directory_uri() . '/assets/styles/404.css');
+		wp_enqueue_script('404-style', get_template_directory_uri() . '/assets/styles/404.css', array(), '1.0');
 	}
 	/* JS */
 	wp_enqueue_script('custom-js', get_template_directory_uri() . '/assets/js/app.js', array(), '1.0', true);
