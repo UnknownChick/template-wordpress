@@ -1,4 +1,4 @@
-# Template Wordpress
+# Template Wordpress Bedrock
 
 **ATTENTION**\
 La configuration de la base de donnée se fait dans le fichier `.env` et non dans le fichier `wp-wonfig.php`
